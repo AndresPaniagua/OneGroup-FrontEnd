@@ -17,7 +17,7 @@
           @update:videosToShow="handleVideosShow"
         />
       </div>
-      <MainVideoCopy
+      <MainVideo
         :allVideos="allVideos"
         :videosToShow="videosToShow"
         @update:allVideos="handleAllVideosVar"
@@ -47,12 +47,10 @@ import "@/assets/styles/mediaQueries.css";
 <script>
 import MenuLeft from "@/components/MenuLeft.vue";
 import MenuTop from "@/components/MenuTop.vue";
-// import MainVideo from "@/components/MainVideo.vue";
+import MainVideo from "@/components/MainVideo.vue";
 import VideoPlayer from "@/components/VideoPlayer.vue";
 import Loading from "vue-loading-overlay";
 import "vue-loading-overlay/dist/css/index.css";
-
-import MainVideoCopy from "@/components/MainVideo.vue";
 
 export default {
   data() {
@@ -67,10 +65,9 @@ export default {
   components: {
     MenuLeft,
     MenuTop,
-    // MainVideo,
+    MainVideo,
     VideoPlayer,
     Loading,
-    MainVideoCopy,
   },
   methods: {
     async openSaveVideo() {
