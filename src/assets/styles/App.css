@@ -1,0 +1,107 @@
+#app__internal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5dc;
+  background-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(29,29,29,1) 50%, rgba(0,0,0,1) 100%);
+  text-align: center;
+  height: 94vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#app__internal > div:nth-child(2) {
+  min-width: 10vw;
+}
+
+#app__internal > div:nth-child(3) {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navTop {
+  width: 83vw;
+  height: 40px;
+}
+
+body {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(113,0,255,1) 50%, rgba(0,0,0,1) 83%);
+}
+
+/* Modal style */
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos del contenido del modal */
+.modal-contenido {
+  background-color: #fefefe;
+  margin: 8% auto;
+  padding: 50px;
+  border: 1px solid #888;
+  max-width: 80%;
+  width: fit-content;
+}
+
+.cerrar {
+  color: #656565;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #818181;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #525252;
+}
+
+::-webkit-scrollbar-horizontal {
+  height: 10px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #818181;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #525252;
+}

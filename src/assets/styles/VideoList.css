@@ -1,0 +1,60 @@
+.videoListTitle {
+  border-bottom: 1px solid black;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+}
+
+.videosTitle {
+  color: white;
+  font-size: x-large;
+  border-bottom: 1px solid #0000ff;
+  width: 115px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.videoShowContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  cursor: pointer;
+  width: 20%;
+  min-width: 210px;
+  height: 200px;
+  margin: 0 5% 25px 5%;
+}
+
+.video-item:hover {
+  color: rgb(128, 128, 128);
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.video-info {
+  text-align: center;
+}
+
+.video-title {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

@@ -1,0 +1,85 @@
+.vl-parent {
+  height: 90vh;
+}
+
+.All_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.All_container > div {
+  width: 75%;
+  min-width: 670px;
+  padding: 10px;
+}
+
+.main__video {
+  height: 55%;
+  min-height: 55%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.main__video > div {
+  height: 100%;
+}
+
+.main__video-showVideo {
+  width: 60%;
+  background-color: #000000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main__video-showVideo > video {
+  width: 100%;
+  height: 100%;
+}
+
+.main__video-showDescription {
+  width: 35%;
+  border: 2px solid #2d2c2c;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.titleVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background: #353434;
+}
+
+.titleVideo > label {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: cursive;
+}
+
+.descriptionVideo {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.descriptionVideo > article {
+  margin: 10px;
+  color: #dbdbdb;
+  text-align: justify;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

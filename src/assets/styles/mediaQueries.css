@@ -1,0 +1,132 @@
+@media (max-width: 870px) {
+  #app__internal > div:nth-child(3) {
+    width: 100% !important;
+  }
+
+  #app__internal > div:nth-child(2) {
+    width: 15% !important;
+  }
+
+  .navTop {
+    width: 75vw !important;
+  }
+
+  .main__video {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .main__video-showVideo,
+  .main__video-showDescription {
+    width: 100% !important;
+  }
+
+  .main__video-showVideo {
+    height: auto !important;
+  }
+
+  .main__video-showDescription {
+    height: 30% !important;
+  }
+
+  .main__video-showDescription {
+    margin-top: 10px !important;
+  }
+
+  .All_container > div {
+    width: 95% !important;
+    min-width: 0 !important;
+  }
+
+  .titleVideo {
+    height: 30% !important;
+  }
+
+  .descriptionVideo {
+    height: 70% !important;
+  }
+
+  .titleVideo > label {
+    font-size: medium !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #app__internal > div:nth-child(2) {
+    width: 10% !important;
+  }
+
+  aside {
+    width: calc(1rem) !important;
+  }
+
+  aside .menu .button .material-icons {
+    font-size: 1.5rem !important;
+  }
+
+  aside .menu .button {
+    padding: 0 !important;
+  }
+
+  .button {
+    width: 97% !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .navTop {
+    display: none !important;
+  }
+
+  #app__internal {
+    flex-direction: column !important;
+  }
+
+  #app__internal > div:nth-child(2) {
+    width: 100% !important;
+    height: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  aside {
+    height: 40px !important;
+    width: 80% !important;
+    flex-direction: row !important;
+    min-height: 0 !important;
+    justify-content: space-between !important;
+  }
+
+  aside > h3 {
+    display: none;
+  }
+
+  .menu {
+    display: flex !important;
+  }
+
+  .menu > button {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+  }
+
+  .flex {
+    display: none !important;
+  }
+
+  aside > div:nth-child(2) {
+    width: 100% !important;
+  }
+
+  .main__video-showDescription {
+    height: 50% !important;
+  }
+
+  .All_container > div {
+    width: 94% !important;
+  }
+
+  .modal-contenido {
+    max-width: 65%;
+  }
+}
